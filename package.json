@@ -1,0 +1,16 @@
+{
+  "name": "wardrobe-weather-card",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Weather-aware outfit dashboard card for Home Assistant",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
